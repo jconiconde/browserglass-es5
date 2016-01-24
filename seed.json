@@ -1,0 +1,5 @@
+{
+	"undefined": "localhost/browserglass",
+	"dev": "localhost/browserglass",
+	"prod": "localhost/browserglass"
+}

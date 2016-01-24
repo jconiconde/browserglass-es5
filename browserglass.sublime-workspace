@@ -1,0 +1,594 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"browser",
+				"browserify"
+			],
+			[
+				"brow",
+				"browserify"
+			],
+			[
+				"bro",
+				"browserify"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"qu",
+				"querySelector(${0:selectors})	Element"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main.js",
+			"settings":
+			{
+				"buffer_size": 329,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"last_filter": "handle",
+		"selected_items":
+		[
+			[
+				"handle",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"SyntaxFole",
+				"Preferences: SyntaxFold Settings - User"
+			],
+			[
+				"List",
+				"Package Control: List Packages"
+			],
+			[
+				"INs",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"Pack",
+				"Package Control: List Packages"
+			],
+			[
+				"SublimeLin",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: List Packages"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Rremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Inst",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"PackRe",
+				"Package Control: Remove Package"
+			],
+			[
+				"SublimeLinter:",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"Syn",
+				"SyntaxFold: Show Panel"
+			],
+			[
+				"In",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"PackLis",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"PackageResourceViewer: O",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"PackageResour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Packaage",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Con in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 264.0,
+		"history":
+		[
+			"print('\\n'*100)",
+			"os.system(\"clear\")",
+			"os.system(\"cls\")",
+			"test",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jopet/dev/browserglass",
+		"/home/jopet/dev/browserglass/dist/scripts",
+		"/home/jopet/dev/browserglass/src",
+		"/home/jopet/dev/browserglass/src/views/layouts"
+	],
+	"file_history":
+	[
+		"/home/jopet/dev/browserglass/gulpconfig.js",
+		"/home/jopet/dev/browserglass/gulpfile.js",
+		"/home/jopet/dev/browserglass/src/browserglass.js",
+		"/home/jopet/dev/browserglass/src/views/layouts/main.hbs",
+		"/home/jopet/dev/browserglass/src/index.html",
+		"/home/jopet/dev/browserglass/src/views/index.hbs",
+		"/home/jopet/dev/browserglass/src/main.js",
+		"/home/jopet/dev/browserglass/package.json",
+		"/home/jopet/dev/browserglass/dist/scripts/bundle.js",
+		"/home/jopet/dev/browserglass/src/views/layouts/browserglass.hbs",
+		"/home/jopet/dev/browserglass/src/views/500.hbs",
+		"/home/jopet/dev/browserglass/src/views/400.hbs",
+		"/home/jopet/dev/browserglass/src/views/browserglass.hbs",
+		"/home/jopet/.config/sublime-text-3/Packages/User/syntax_fold.sublime-settings",
+		"/home/jopet/dev/browserglass/dist/scripts/bundle.js.map",
+		"/home/jopet/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/jopet/dev/psadmin-ex/5/after/gulpfile.js",
+		"/home/jopet/dev/psadmin/gulpfile.js",
+		"/home/jopet/dev/introreact/CH03/BasicDemo/package.jsonxxxxx",
+		"/home/jopet/dev/introreact/CH03/BasicDemo/index.html",
+		"/home/jopet/dev/introreact/package.json",
+		"/home/jopet/dev/introreact/CH03/BasicDemo/src/app.jsx",
+		"/home/jopet/dev/es6/ps-funda/m3-files/after/index.html",
+		"/home/jopet/dev/es6/ps-funda/m3-files/after/Gulpfile.js",
+		"/home/jopet/dev/e-cal/public/assets/js/ecal/events.js",
+		"/home/jopet/dev/e-cal/application/modules/management/controllers/StandardWidgetController.php",
+		"/home/jopet/dev/es6/funda/classes/m3",
+		"/home/jopet/dev/e-cal/application/layouts/management/main.phtml",
+		"/home/jopet/dev/e-cal/public/assets/css/general.css",
+		"/home/jopet/dev/e-cal/application/modules/management/views/scripts/standard-widget/add.phtml",
+		"/home/jopet/dev/e-cal/application/modules/management/views/scripts/standard-widget/edit.phtml",
+		"/home/jopet/dev/e-cal/application/modules/management/views/scripts/event/index.phtml",
+		"/home/jopet/dev/e-cal/public/assets/js/ecal/general.js",
+		"/home/jopet/dev/e-cal/public/assets/js/ecal/sub-widget.js",
+		"/home/jopet/dev/e-cal/public/assets/js/ecal/standard-widget.js",
+		"/home/jopet/dev/e-cal/public/assets/css/calendar.css",
+		"/home/jopet/dev/e-cal/public/assets/js/ecal/widgets.js",
+		"/media/jopet/general/tuts/js/books/react/introreact/CH03/BasicDemo/src/app.jsx",
+		"/home/jopet/dev/e-cal/.gitignore",
+		"/home/jopet/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/jopet/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/media/jopet/general/tuts/js/books/react/introreact/CH01/react-router-example.jsx",
+		"/media/jopet/general/tuts/js/books/react/introreact/CH01/test.js",
+		"/home/jopet/dev/testsubl-linter/test.js",
+		"/home/jopet/dev/testsubl-linter/.jscsrc",
+		"/home/jopet/dev/testsubl-linter/test",
+		"/home/jopet/dev/ecal/esw/src/client/app/core/test.js",
+		"/home/jopet/.config/sublime-text-3/Packages/SyntaxFold/README.md",
+		"/home/jopet/dev/ecal/esw/untitled",
+		"/home/jopet/dev/ecal/esw/test.js",
+		"/home/jopet/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/home/jopet/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/home/jopet/dev/ecal/esw/src/client/app/blocks/list-state.js",
+		"/home/jopet/dev/ecal/esw/src/client/app/blocks/platform.service.js",
+		"/home/jopet/dev/ecal/esw/src/client/test-helpers/test.js",
+		"/home/jopet/.config/sublime-text-3/Packages/User/ColorScheme/CustomHighlightBrackets Dark.tmTheme",
+		"/home/jopet/.config/sublime-text-3/Packages/Brackets Color Scheme/Brackets Dark.tmTheme",
+		"/home/jopet/.config/sublime-text-3/Packages/User/trailing_spaces.sublime-settings",
+		"/home/jopet/dev/ecal/esw/src/client/demo-index.html",
+		"/home/jopet/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/jopet/dev/ecal/esw/src/client/app/blocks/exception/exception-handler.provider.js",
+		"/home/jopet/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/jopet/dev/ecal/esw/src/client/index.html",
+		"/home/jopet/.config/sublime-text-3/Packages/Colorsublime-Themes/Dracula.tmTheme",
+		"/home/jopet/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/jopet/.config/sublime-text-3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/home/jopet/.config/sublime-text-3/Packages/Alignment/JSON.sublime-settings",
+		"/home/jopet/dev/php/phpinfo.php",
+		"/home/jopet/dev/php/test-php.sublime-project",
+		"/home/jopet/dev/php/index.php",
+		"/home/jopet/namedpipe"
+	],
+	"find":
+	{
+		"height": 63.0
+	},
+	"find_in_files":
+	{
+		"height": 179.0,
+		"where_history":
+		[
+			"/home/jopet/dev/e-cal",
+			"<project>",
+			"/home/jopet/dev/e-cal",
+			"/home/jopet/dev",
+			"/home/jopet/dev/e-cal",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"port",
+			"pipe",
+			"	.",
+			"defaultPort",
+			"config.port",
+			"process.env.PORT",
+			"getTimeNow",
+			"browserSync",
+			"port",
+			"nodemon",
+			"node",
+			"plgns",
+			"through2",
+			"ctrl+shift+,",
+			"the class keyword can have a super class",
+			"missingFieldMsg",
+			"fieldMsg",
+			"addEditWidget",
+			"addEditEvent",
+			"submit",
+			"Save",
+			"addEditCalendar",
+			"Save",
+			"assets/",
+			"/assets/",
+			"assets/images/",
+			"addEditWidget",
+			"assets",
+			"wait uk-text-center uk-margin-large-top",
+			"ecal-loading",
+			"event-details",
+			"sp-input",
+			"sp-choose",
+			"choose",
+			"sp-container",
+			"report.js",
+			"calendar/assets/images",
+			"space",
+			"guide",
+			"trailing_spaces_trim_on_save",
+			"background",
+			"DDDDDD",
+			"FF79C6",
+			"tab",
+			"tab-sizes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"port",
+			">",
+			";\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.528078872558,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 437.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "browserglass.sublime-project",
+	"replace":
+	{
+		"height": 103.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 438.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 333.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

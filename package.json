@@ -1,0 +1,85 @@
+{
+  "name": "browserglass",
+  "version": "1.0.0",
+  "description": "sync all browser for different platforms. It uses browser  sync behind the scene",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jopet coniconde",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "body-parser": "^1.14.1",
+    "browser-sync": "^2.10.1",
+    "classnames": "^2.2.1",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "flux": "^2.1.1",
+    "ip": "^1.1.0",
+    "jquery": "^2.1.4",
+    "keymirror": "^0.1.1",
+    "lodash": "^3.10.1",
+    "material-ui": "^0.14.2",
+    "moment": "^2.10.6",
+    "mongoose": "^4.3.1",
+    "object-assign": "^4.0.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-router": "^1.0.3",
+    "react-tap-event-plugin": "^0.2.1",
+    "request-promise": "^1.0.2",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7",
+    "store": "^1.3.20",
+    "toastr": "^2.1.2",
+    "uikit": "^2.24.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.5",
+    "browserify": "^12.0.1",
+    "browserify-shim": "^3.8.11",
+    "bs-html-injector": "^3.0.0",
+    "chokidar": "^1.4.1",
+    "continuation-local-storage": "^3.1.4",
+    "eslint": "^1.10.3",
+    "eslint-config-defaults": "^7.1.1",
+    "exorcist": "^0.4.0",
+    "gulp": "^3.9.0",
+    "gulp-add-src": "^0.2.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^1.0.1",
+    "gulp-eslint": "^1.1.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-if": "^2.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "history": "^1.13.0",
+    "kerberos": "0.0.17",
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.8.1",
+    "open": "0.0.5",
+    "reactify": "^1.1.1",
+    "socket.io-redis": "^1.0.0",
+    "sticky-session": "^1.0.2",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0",
+    "watchify": "^3.6.1",
+    "yargs": "^3.31.0"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "./node_modules/jquery/dist/jquery.js": {
+      "exports": "$"
+    }
+  }
+}

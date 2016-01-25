@@ -68,7 +68,8 @@ function exitBs(createdInstance) {
 
 // data refers to the data emitted from client
 function instanceInit(socket, data, createdInstance, err, bs) {
-    var $this = this;
+    var $this = this,
+        first = false;
     //console.log(data);
     socket.emit('links:activate-online', {
         url : bs.options.getIn(['urls', 'external']),
@@ -78,7 +79,11 @@ function instanceInit(socket, data, createdInstance, err, bs) {
     createdInstance.emitter.on('links:exit', linkExit.bind($this, bs, socket, data));
     //createdInstance.emitter.on('exit', linkExit.bind($this, bs, socket, data));
     createdInstance.emitter.on('links:on-browse', browseLink.bind($this, bs, socket , data));
-    createdInstance.emitter.emit('links:on-browse', data);
+    if (!first) {
+        createdInstance.emitter.emit('links:on-browse', data);
+        first = true;
+    }
+    
     //socket.on('links:browse', browseLink.bind($this, bs, socket));
 }
 /**
@@ -176,7 +181,7 @@ process.on('SIGINT', exitHandler.bind(null, {exit:true, type : 'SIGINT'}));
 
 //catches uncaught exceptions
 process.on('uncaughtException', function(err) {
-    console.log(err.message);
+    console.log(err);
 });
 
 // need to consolidate / organize this module with a proper pattern

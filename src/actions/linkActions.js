@@ -57,8 +57,8 @@ var LinkActions = assign(linkEvts, {
 			return res;
 		});
 	},
-	removeLink : function(id) {
-		return rp.del(apiLinkUrl + id,
+	removeLink : function(link) {
+		return rp.del(apiLinkUrl + link._id + '/' + link.owner,
 			function(err, res, body) {
 				Dispatcher.dispatch({
 					actionType : ActionTypes.REMOVE_LINK,

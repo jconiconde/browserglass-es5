@@ -120,7 +120,7 @@ var LinkList = React.createClass({
 		linkActions.socket.emit('links:reload', link);
 	},
 	_remove : function() {
-		linkActions.removeLink(this.state.link._id)
+		linkActions.removeLink(this.state.link)
 		.then(function() {
 			linkActions.socket.emit('links:exit', this.state.link);
 			linkActions.getLinks();

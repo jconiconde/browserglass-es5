@@ -65,16 +65,16 @@ var LinkPage = React.createClass({
 
 		}
 		// this line below is a bad design, kind of a rush :)
-		if (evtType && linkConstants.GET_LINKS === evtType) {
+		if (evtType && linkConstants.GET_LINKS === evtType && user) {
 			linkActions.socket.emit('links:get-online-states', {
 				owner : user._id
 			});
 		}
 	},
 	_onSaveLinkItem : function(e) {
-		var  canSave = this._linkFormIsValid('url');
-			canSave = this._linkFormIsValid('title');
-		if (!canSave) {
+		var  isUrlValid = this._linkFormIsValid('url');
+		var isTitleValid = this._linkFormIsValid('title');
+		if (!(isUrlValid && isTitleValid)) {
 			this.setState({
 				selectedLink : this.state.selectedLink
 			});

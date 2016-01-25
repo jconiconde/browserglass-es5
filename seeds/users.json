@@ -2,11 +2,13 @@
 	{
 		"name" : "jopet",
 		"username" : "jopet",
-		"password" : "a"
+		"password" : "a",
+		"links" : []
 	},
 	{
 		"name" : "tropet",
 		"username" : "tropet",
-		"password" : "a"
+		"password" : "a",
+		"links" : []
 	}
 ]

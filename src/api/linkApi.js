@@ -54,8 +54,8 @@ module.exports = function(app) {
 
 	});
 
-	app.delete(apipath + ':id', function(req, res){
-		linkModel.delete(req.params.id, function(err, doc) {
+	app.delete(apipath + ':id/:userid', function(req, res){
+		linkModel.delete(req.params.id, req.params.userid, function(err, doc) {
 			if(err){
 				res.send(err);
 			}

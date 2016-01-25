@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var UserModel = require('./user');
+var _ = require('lodash');
 var browserSchema = new Schema({
 	open : Boolean,
 	name : String
@@ -52,7 +53,32 @@ module.exports.update = function(link, cb, options) {
 	Link.findOneAndUpdate({_id : link.id}, link, options, cb);
 };
 
-module.exports.delete = function(id, cb) {
-	Link.remove({_id : id}, cb);
+module.exports.delete = function(id, userId, cb) {
+	//Link.remove({_id : id}, cb);
+	Link.remove({_id : id}, function(err, doc) {
+		// UserModel.findByIdAndUpdate(userId, {
+		// 		$pull : { 
+		// 			links : {
+		// 				_id : Schema.Types.ObjectId(id)
+		// 			}
+		// 		}
+		// 	},
+		// 	cb
+		// );
+		UserModel.findOne({_id : userId}, function(err, user) {
+			if (err) { 
+				throw err;
+			}
+			var links = _.filter(user.links, function(item){
+			   return (item._id.toString() !== id) && item.owner;
+			});
+			user.links = links;
+			//user.links.pull({_id : id});
+			user.save(function(err) {
+				cb(err, user);
+			});
+		});
+
+	});
 };
 

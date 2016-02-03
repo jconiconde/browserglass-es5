@@ -1,8 +1,8 @@
 # Browserglass
 
-This is a web app that can be used for synchronized testing with different devices / platforms. It uses Browsersync & socket.io behind the scene. I hope you find it useful :)
+This is a web app that can be used for synchronized testing with different devices / platforms. It uses [Browsersync](https://www.browsersync.io/) & socket.io behind the scene. I hope you find it useful :)
 
-*Note: This project is still under development and only works for some secured sites. I recommend to only use it internally (for testing perhaps :P ). I'm planning to migrate it to ES6 & Redux and consolidate a lot of stuff with new features that will be added .* 
+*Note: This project is still under development and only works for some secured sites. I recommend to only use it internally (for testing perhaps :P ). I'm planning to migrate it to ES6 & Redux, and consolidate a lot of stuff with new features .* 
 
 ### Tech
 
